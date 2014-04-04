@@ -3,7 +3,7 @@ require 'scraperwiki.php';
 require 'scraperwiki/simple_html_dom.php';
 
 
-$json_content= scraperWiki::scrape("http://dynamic.pulselive.com/dynamic/data/core/cricket/2012/ipl2013/squads.js?_1363325436894=");
+$json_content= scraperWiki::scrape("http://dynamic.pulselive.com/dynamic/data/core/cricket/2012/ipl2014/squads.js?_1363325436894=");
 //print "JSON".$json_content;
  
 if(strpos($json_content,"The page is not found") === FALSE){       
